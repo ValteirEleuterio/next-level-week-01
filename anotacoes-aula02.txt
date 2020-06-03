@@ -1,0 +1,12 @@
+para o express entender o body é nessário usar o comando
+
+app.use(express.json())
+
+
+usar o path.resolve para caminho do arquivo de banco de dados
+import path from 'path'
+path.resolve()
+
+
+rodar as migrations
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest

@@ -1,0 +1,29 @@
+Node com typescript
+
+- instalar o typescript como dependencia de desenvolvimento
+  npm install typescript -D
+
+- configurar o typescript
+  npx tsc --init
+
+- instalar a tipagem da biblioteca como dependencia de desenvolvimento
+  no caso do express usar o comando -> npm install @types/express -D
+
+- instalar o ts-node para rodar o projeto em desenvolvimento
+  npm install ts-node -D
+
+- rodar o servidor
+  npx ts-node src/server.ts
+
+- instalar ts-node-dev (semelhante ao nodemon)
+  npm install ts-node-dev -D
+
+- rodar o servidor usando o ts-node-dev
+  npx ts-node-dev src/server.ts
+
+=============================================
+React com typescript
+npx create-react-app web --template=typescript
+
+- rodar o projeto
+  npm start
